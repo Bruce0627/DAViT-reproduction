@@ -1,0 +1,43 @@
+{
+  "tn": 218,
+  "fp": 16,
+  "fn": 8,
+  "tp": 382,
+  "accuracy": 0.9615384615384616,
+  "precision": 0.9597989949748744,
+  "recall": 0.9794871794871794,
+  "specificity": 0.9316239316239316,
+  "f1": 0.9695431472081218,
+  "auc_hard_labels": 0.9555555555555555,
+  "auc_probability": 0.992548761779531,
+  "source": "fresh checkpoint inference",
+  "device": "cuda",
+  "difference_from_author_log": {
+    "accuracy": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "specificity": 0.0,
+    "f1": 0.0,
+    "auc_hard_labels": 0.0
+  },
+  "cam_examples": [
+    {
+      "image": "person110_bacteria_531.jpeg",
+      "target": 1,
+      "target_probability": 0.9999880790710449,
+      "heatmap": "detection_cam_person110_bacteria_531_class_1.png"
+    },
+    {
+      "image": "person15_virus_46.jpeg",
+      "target": 1,
+      "target_probability": 0.9998237490653992,
+      "heatmap": "detection_cam_person15_virus_46_class_1.png"
+    },
+    {
+      "image": "IM-0001-0001.jpeg",
+      "target": 1,
+      "target_probability": 5.883678386453539e-05,
+      "heatmap": "detection_cam_IM-0001-0001_class_1.png"
+    }
+  ]
+}

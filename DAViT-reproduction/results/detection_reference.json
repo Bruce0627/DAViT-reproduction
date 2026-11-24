@@ -1,0 +1,13 @@
+{
+  "tn": 218,
+  "fp": 16,
+  "fn": 8,
+  "tp": 382,
+  "accuracy": 0.9615384615384616,
+  "precision": 0.9597989949748744,
+  "recall": 0.9794871794871794,
+  "specificity": 0.9316239316239316,
+  "f1": 0.9695431472081218,
+  "auc_hard_labels": 0.9555555555555555,
+  "source": "reconstructed from published author log; no new inference"
+}

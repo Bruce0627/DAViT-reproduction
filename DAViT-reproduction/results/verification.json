@@ -1,0 +1,41 @@
+{
+  "detection": {
+    "source_log": "davit_30epo_1e5_detection_train.log",
+    "max_absolute_difference": 2.220446049250313e-16
+  },
+  "type": {
+    "source_log": "davit_30epo_1e5_pneumonia_type_train.log",
+    "max_absolute_difference": 1.1102230246251565e-16
+  },
+  "data_index": {
+    "source": "Kaggle ZIP central directory, one copy of the standard chest_xray tree",
+    "image_counts": {
+      "train": {
+        "NORMAL": 1341,
+        "PNEUMONIA": 3875
+      },
+      "val": {
+        "NORMAL": 8,
+        "PNEUMONIA": 8
+      },
+      "test": {
+        "NORMAL": 234,
+        "PNEUMONIA": 390
+      }
+    },
+    "pneumonia_type_test": {
+      "bacteria": 242,
+      "virus": 148
+    },
+    "decoded_test_image_count": 624,
+    "test_manifest_sha256": "61ea007ef3b607a6c202d936a9bccf389b309eb51e3dd62a733138906fe178b5"
+  },
+  "training_smoke": {
+    "data": "synthetic images",
+    "epochs_per_task": 1,
+    "trained_checkpoints": [
+      "domain_adapted_davit.bin",
+      "davit_pneumonia_detection.bin"
+    ]
+  }
+}

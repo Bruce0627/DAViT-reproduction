@@ -1,0 +1,23 @@
+{
+  "tn": 240,
+  "fp": 2,
+  "fn": 47,
+  "tp": 101,
+  "accuracy": 0.8743589743589744,
+  "precision": 0.9805825242718447,
+  "recall": 0.6824324324324325,
+  "specificity": 0.9917355371900827,
+  "f1": 0.8047808764940239,
+  "auc_hard_labels": 0.8370839848112576,
+  "auc_probability": 0.9521722135358499,
+  "source": "fresh checkpoint inference",
+  "device": "cuda",
+  "difference_from_author_log": {
+    "accuracy": -0.002564102564102555,
+    "precision": -0.0001867064973860577,
+    "recall": -0.006756756756756688,
+    "specificity": 0.0,
+    "f1": -0.004742933029785679,
+    "auc_hard_labels": -0.0033783783783783994
+  }
+}
